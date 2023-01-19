@@ -94,9 +94,8 @@ int main(int argc, char *argv[])
 			f(&vglo.head, vglo.cont);
 		}
 		nlines = getline(&vglo.buffer, &size, fd);
-		vglo.cont++
+		vglo.cont++;
 	}
-	
 	free_vglo();
 
 	return (0);
